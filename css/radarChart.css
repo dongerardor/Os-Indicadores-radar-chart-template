@@ -1,0 +1,36 @@
+* {
+    cursor: crosshair;
+}
+
+.radar-chart-serie {
+    fill: none;
+}
+.radar-chart-serie.resultado, g.legend g.resultado rect {
+    stroke: #fff2cc;
+    stroke-width: 1px;
+    fill: #999933;
+    fill-opacity: 0.5;
+}
+.radar-chart-serie.receita, g.legend g.receita rect {
+    stroke: #c5e0b4;
+    stroke-width: 3px;
+    fill: none;
+}
+.radar-chart-serie.despesas, g.legend g.despesas rect {
+    stroke: #ff8f8f;
+    stroke-width: 3px;
+    fill: none;
+}
+
+.axis-wrapper .axis-scale .gridPolygons {
+    fill: none;
+    stroke-width: 1px;
+    stroke: #bfbfbf;
+}
+
+.tooltip {
+    position: absolute;
+    background-color:rgba(235, 235, 235, 0.8);
+    padding: 0 1rem;
+
+}
